@@ -6,7 +6,7 @@ export default ({ req }) => {
     // requests should be made to the long format
     
     return axios.create({
-      baseURL: 'http://ingress-nginx-controller.ingress-nginx.svc.cluster.local',
+      baseURL: 'http://www.anei-group.xyz/',
       headers: req.headers
     });
   } else {
